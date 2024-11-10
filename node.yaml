@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: mynode-container
-          image: soubarniya/mynode:$(VERSION)  # Ensure this matches the image tag pushed in the GitHub Actions workflow
+          image: soubarniya/mynode:1.0.2
           imagePullPolicy: Always
           ports:
             - containerPort: 3000          # Change to your app's running port
