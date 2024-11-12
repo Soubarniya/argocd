@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: mynode-container
-          image: soubarniya/mynode:2.0.0
+          image: soubarniya/mynode:2.0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 3000          # Change to your app's running port
