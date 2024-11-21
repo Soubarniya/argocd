@@ -36,4 +36,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 3000                    # Match the container port
-  type: LoadBalancer                      # Or use ClusterIP, NodePort based on requirements
+  type: NodePort                      # Or use ClusterIP, NodePort based on requirements
